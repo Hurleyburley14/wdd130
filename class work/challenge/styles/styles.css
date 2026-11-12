@@ -1,0 +1,16 @@
+body{
+    background-color: burlywood;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 100px 350px;
+    margin:auto center  
+}
+img {
+    max-width: 100px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

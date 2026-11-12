@@ -1,0 +1,12 @@
+body {
+    background-color: darkkhaki;
+}
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
+header, footer {
+    grid-column: 1/4;
+    background-color: brown;
+}

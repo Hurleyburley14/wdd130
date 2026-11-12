@@ -1,0 +1,33 @@
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  width: 330px;
+  min-height: 620px;
+  padding: 25px;
+
+  background-color: #008db1;
+  border: 5px solid #004e63;
+  border-radius: 30px;
+
+  color: white;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: normal;
+}
+.link {
+    color: #91e4fb;
+  font-size: 18px;
+}
+.link:hover {
+  text-decoration: underline;
+}

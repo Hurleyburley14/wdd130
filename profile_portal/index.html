@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Portal</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header id="home">
+    <a href="#home" aria-label="Profile Portal home">
+      <img src="images/P_P Logo.png" alt="Profile Portal logo">
+    </a>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#wwr">WWR</a></li>
+        <li><a href="#ice">ICE</a></li>
+        <li><a href="#about-me">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+      <div>
+        <h1 id="hero-heading">Build. Learn. Share.</h1>
+        <p>A home for my web projects, experiments, and progress.</p>
+        <a href="#featured-pages">Explore My Work</a>
+      </div>
+
+      <img
+        src="images/working.png"
+        alt="A student working at a laptop"
+      >
+    </section>
+
+    <section id="about-me" aria-labelledby="about-heading">
+      <img
+        src="images/Profile.png"
+        alt="Portrait of the student who created this portfolio"
+      >
+
+      <div>
+        <h2 id="about-heading">About Me</h2>
+        <p>
+          I am a student learning to turn ideas into useful,
+          welcoming web experiences.
+        </p>
+        <a href="#contact">Learn more about me</a>
+      </div>
+    </section>
+
+    <section id="featured-pages" aria-labelledby="featured-heading">
+      <h2 id="featured-heading">Featured Pages</h2>
+
+      <article id="wwr">
+        <h3>WWR</h3>
+        <p>
+          A responsive project focused on layout, content,
+          and visual design.
+        </p>
+        <a href="wwr/">View WWR page</a>
+      </article>
+
+      <article id="ice">
+        <h3>ICE</h3>
+        <p>
+          A collection of small web exercises and experiments.
+        </p>
+        <a href="ice.html">View ICE page</a>
+      </article>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Web design</li>
+      </ul>
+    </section>
+
+     <section id="about-me" aria-labelledby="about-heading">
+  <h2 id="about-heading">About Me</h2>
+  <p>
+    My name is Porter Hurley, and I am studying Computer Science. 
+    My goal is to create and start a family centered on Christ. 
+    I hope to earn enough money to support and take care of my family.
+    I love working on cars and solving problems when dealing with them.
+  </p>
+  <h2>Goals</h2>
+  <ul>
+    <li>Start a family</li>
+    <li>Finish school and get my degree</li>
+    <li>To be the most successfull within my family</li>
+  </ul>
+  <h2>Hobbies</h2>
+  <ul>
+    <li>Hiking</li>
+    <li>Camping</li>
+    <li>Gaming</li>
+    <li>Basketball</li>
+    <li>Golf</li>
+    <li>Cars</li>
+
+  </ul>
+</section>
+
+      <h3>Project Snapshot</h3>
+
+      <table>
+        <caption>Current project progress</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Project</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">WWR</th>
+            <td>Complete</td>
+          </tr>
+
+          <tr>
+            <th scope="row">ICE</th>
+            <td>In progress</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Profile Portal. Made with curiosity.</p>
+  </footer>
+</body>
+</html>
